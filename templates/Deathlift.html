@@ -6,22 +6,22 @@
 	<meta name="description" content="X Gym Fitness HTML Template">
 	<meta name="keywords" content="fitness, html">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+	
 	<!-- Favicon -->
-	<link href="{{ url_for('static', filename='img/favicon.ico')}}" rel="shortcut icon" />
+	<link href="{{ url_for('static', filename='img/favicon.ico')}}" rel="shortcut icon"/>
 
 	<!-- Google font -->
 	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&display=swap" rel="stylesheet">
 
 	<!-- Stylesheets -->
-	<link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css')}}" />
-	<link rel="stylesheet" href="{{ url_for('static', filename='css/font-awesome.min.css')}}" />
-	<link rel="stylesheet" href="{{ url_for('static', filename='css/owl.carousel.min.css')}} " />
-	<link rel="stylesheet" href="{{ url_for('static', filename='css/flaticon.css')}} " />
-	<link rel="stylesheet" href="{{ url_for('static', filename='css/slicknav.min.css')}} " />
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css')}}"/>
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/font-awesome.min.css')}}"/>
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/owl.carousel.min.css')}} "/>
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/flaticon.css')}} "/>
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/slicknav.min.css')}} "/>
 
 	<!-- Main Stylesheets -->
-	<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css')}}" />
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css')}}"/>
 
 
 	<!--[if lt IE 9]>
@@ -34,7 +34,6 @@
 	<!-- Page Preloder -->
 	<div id="preloder">
 		<div class="loader"></div>
-	</div>
 	</div>
 
 	<!-- Header section -->
@@ -58,24 +57,27 @@
 	</header>
 	<div class="clearfix"></div>
 	<!-- Header section end -->
+
 	<!-- Page top section -->
 	<section class="page-top-section set-bg" data-setbg="{{ url_for('static', filename='img/header-bg/2.jpg')}}">
 		<div class="container">
-			<h2>Squat Classes</h2>
+			<h2>Deathlift Classes</h2>
 		</div>
 	</section>
 	<!-- Page top section end -->
+
+
 	<!-- Classes section -->
 	<section class="classes-section">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-8  offset-lg-2">
-					<img src="{{ url_for('squat') }}" width="100%">
+					<img src="{{ url_for('deathlift') }}" width="100%">
 				</div>
 			</div>
 		</div>
 	</section>
-
+												
 	<!--====== Javascripts & Jquery ======-->
 	<script src="{{ url_for('static', filename='js/jquery-3.2.1.min.js')}}"></script>
 	<script src="{{ url_for('static', filename='js/bootstrap.min.js')}} "></script>
@@ -84,5 +86,5 @@
 	<script src="{{ url_for('static', filename='js/circle-progress.min.js')}} "></script>
 	<script src="{{ url_for('static', filename='js/main.js')}} "></script>
 
-</body>
+	</body>
 </html>
